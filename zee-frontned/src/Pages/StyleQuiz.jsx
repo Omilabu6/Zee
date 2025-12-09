@@ -7,7 +7,7 @@ import base44 from '@/api/base44Client';
 import { createPageUrl } from "@/utils";
 import QuizQuestion from "@/Components/quiz/QuizQuestion";
 import QuizProgress from '@/Components/quiz/QuizProgress';
-import { quizQuestions, stylePersonalities, calculateStylePersonality } from '@/components/quiz/quizData';
+import { quizQuestions, stylePersonalities, calculateStylePersonality } from '@/Components/quiz/quizData';
 
 export default function StyleQuiz() {
   const navigate = useNavigate();

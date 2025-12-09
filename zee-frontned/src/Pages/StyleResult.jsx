@@ -5,7 +5,7 @@ import { Sparkles, ArrowRight, Palette, Heart, Star } from 'lucide-react';
 import { Button } from "flowbite-react";
 import { Badge } from "flowbite-react";
 import { createPageUrl } from "@/utils";
-import { stylePersonalities } from '@/components/quiz/quizData';
+import { stylePersonalities } from '@/Components/quiz/quizData';
 
 const styleEmojis = {
   'Soft Romantic': '🦢',
