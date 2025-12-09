@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { createPageUrl } from "./utils/index";
 import { Sparkles, Home, Palette } from 'lucide-react';
-import { Toaster } from "@/components/ui/sonner";
+import { Toaster } from "@/Components/ui/sonner";
 
 export default function App({ children, currentPageName }) {
   const showNav = currentPageName !== 'StyleQuiz' && currentPageName !== 'StyleResult';
