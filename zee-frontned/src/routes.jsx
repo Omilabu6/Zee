@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import App from "./App";
-
+// Pages
 import Home from "./pages/Home";
 import StyleDashboard from "./pages/StyleDashboard";
 import StyleQuiz from "./pages/StyleQuiz";
