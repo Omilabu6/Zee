@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 import App from "./App";
 // Pages
-import Home from "./pages/Home";
-import StyleDashboard from "./pages/StyleDashboard";
-import StyleQuiz from "./pages/StyleQuiz";
-import StyleResult from "./pages/StyleResult";
+import Home from "./Pages/Home";
+import StyleDashboard from "./Pages/StyleDashboard";
+import StyleQuiz from "./Pages/StyleQuiz";
+import StyleResult from "./Pages/StyleResult";
 
 export default function AppRoutes() {
   return (
