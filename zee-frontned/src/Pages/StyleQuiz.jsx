@@ -112,7 +112,7 @@ export default function StyleQuiz() {
             <Button
               onClick={submitQuiz}
               disabled={!currentAnswer || isSubmitting}
-              className="bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 px-8"
+              className="bg-gradient-to-r p-3 from-rose-500 to-pink-500 hover:from-rose-600 hover:to-pink-600 px-8"
             >
               {isSubmitting ? (
                 <Loader2 className="h-4 w-4 animate-spin mr-2" />
@@ -125,7 +125,7 @@ export default function StyleQuiz() {
             <Button
               onClick={goNext}
               disabled={!currentAnswer}
-              className="bg-gray-900 hover:bg-gray-800"
+              className="bg-gray-900 p-3 hover:bg-gray-800"
             >
               Next
               <ArrowRight className="h-4 w-4 ml-2" />
